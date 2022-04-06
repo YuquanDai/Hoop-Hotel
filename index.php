@@ -3,6 +3,7 @@
 <head>
     <title>Hoop Hotel Welcome Page</title>
     <link rel="stylesheet" href="css/bootstrapCarousel.css">
+    <!--   javascript files   -->
     <script src="javascript/jquery.min.js"></script>
     <script src="javascript/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
