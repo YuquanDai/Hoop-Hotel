@@ -1,0 +1,172 @@
+body {
+    max-width: 1160px;
+    font: 1em normal Arial, sans-serif;
+    color: #111111;
+}
+/* rules for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+#leftHeader {
+    display: flex;
+    align-items: center;
+    /*font-size: 1em;*/
+}
+
+#logo img {
+    width: 140px
+}
+
+#leftHeader a {
+    text-decoration: none;
+    color: #111111;
+}
+
+/* rules for the center header */
+#searchBoxForm {
+    margin-top: 30px;
+    display: flex;
+}
+#searchBox {
+    height: 20px;
+}
+
+main {
+    display: flex;
+    margin: 20px 0 20px 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.dropdownSelect {
+    width: 189px;
+    padding: 5px;
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    padding-top: 5px;
+    z-index: 1;
+    border-radius: 5px;
+    background-color: #858585;
+    text-align: center;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdownContent a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdownContent a:hover {
+    color: #111111;
+    text-decoration: none;
+}
+
+#addedHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#rightTopHeader a {
+    text-decoration: none;
+    color: #111111;
+}
+
+/* rules for the right header */
+
+#rightHeader {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/*#midHeader {
+    margin-top: 40px;
+}*/
+
+#rightBottomHeader {
+    display: flex;
+}
+
+#cartCount{
+    width: 120px;
+    margin: 8px 0 0 10px;
+}
+
+.headerButton {
+    background-color: #111111;
+    width: 75px;
+    height: 30px;
+    margin: 30px 15px 0 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+.headerButton a{
+    color: white;
+    text-decoration: none;
+}
+.headerButton a:hover {
+    color: #858585;
+    text-decoration: none;
+}
+
+/* rules for the footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin-left: 10px;
+    padding: 15px 0;
+    font-size: 0.8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #111111;
+}
+
+#footerLeft {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 0 10px;
+    width: 450px;
+}
+
+#footerLeft a {
+    padding-top: 12px;
+}
+
+#footerRight {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    width: 130px;
+}
+
+main {
+    border: 1px solid black;
+}
